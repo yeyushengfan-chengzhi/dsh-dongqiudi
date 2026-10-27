@@ -1,0 +1,9 @@
+- insert:
+    - id: dongqiudi
+      name: 'dsh-dongqiudi'
+      config:
+        defaultTeamId: '50000335'
+        newsLimit: 10
+        commentLimit: 20
+        requestTimeoutMs: 15000
+        toolTimeoutMs: 60000
