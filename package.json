@@ -1,0 +1,49 @@
+{
+  "name": "dsh-dongqiudi",
+  "version": "0.1.0",
+  "description": "DeepSeek Harness plugin for Dongqiudi team news, articles, comments and reviewable reply drafts",
+  "type": "module",
+  "main": "lib/index.js",
+  "files": [
+    "lib/**/*.js",
+    "cordis.patch.yml",
+    "README.md",
+    "LICENSE"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yeyushengfan-chengzhi/dsh-dongqiudi.git"
+  },
+  "homepage": "https://github.com/yeyushengfan-chengzhi/dsh-dongqiudi",
+  "bugs": {
+    "url": "https://github.com/yeyushengfan-chengzhi/dsh-dongqiudi/issues"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {
+    "node": ">=18",
+    "dsh": ">=0.1.0-rc.6 <0.3.0-0"
+  },
+  "peerDependencies": {
+    "@deepseek-ai/cordis": "^4.0.1",
+    "@deepseek-ai/dsh-tools": ">=0.1.0-rc.6 <0.3.0-0",
+    "@deepseek-ai/schemastery": "^3.18.1"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "dongqiudi",
+    "football",
+    "cordis"
+  ]
+}
